@@ -44,7 +44,9 @@ for (var index = 0; index < RunOrder.length; index++) {
         "files": FileSystem.readdirSync( Directory ),
 
         "token": TOKEN,
-        "clientID": CLIENTID
+        "clientID": CLIENTID,
+
+        "config": require('./config.json')
       }
     );
   }

@@ -12,7 +12,7 @@ module.exports = {
       return;
     }
 
-    try { await Command.execute(interaction); }
+    try { await Command.execute(interaction, interaction.options); }
     catch (e) { console.error(`Failed to execute ${ CommandName }.\nERROR: ${ e }`) }
   }
 }
