@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Discord-For-Dummies/Discord-For-Dummies-JS/issues"
   },
-  "homepage": "https://github.com/Discord-For-Dummies/Discord-For-Dummies-JS#readme"
+  "homepage": "https://github.com/Discord-For-Dummies/Discord-For-Dummies-JS#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1"
+  }
 }
