@@ -1,3 +1,5 @@
+const FileSystem = require('fs');
+
 module.exports = {
   type: 'on',
 
