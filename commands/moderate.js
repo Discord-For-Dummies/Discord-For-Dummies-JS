@@ -12,7 +12,7 @@ module.exports = {
 
   async execute(interaction, options) {
     const target = options.getUser('user');
-    const reason = options.getString('reason') || '';
+    const reason = options.getString('reason') || '*nothing*';
 
     await interaction.reply({ content: 'Select something', embeds: [
       new EmbedBuilder()
